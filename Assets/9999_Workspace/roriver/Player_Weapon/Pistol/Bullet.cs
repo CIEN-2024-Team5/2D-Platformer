@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public float LifeTIme = 0.5f;
+    public float LifeTime = 0.5f;
     void Start()
     {
-        Destroy(gameObject,LifeTIme);
+        Destroy(gameObject,LifeTime);
     }
     private void Update()
     {
@@ -20,6 +20,7 @@ public class Bullet : MonoBehaviour
         //총알이 Player 태그를 가지지 않는 물체를 맞추면 사라짐, Enemy 태그를 가진 물체를 맞추면 맞췄다는 문구가 뜨고 사라짐
         if (collision.gameObject.tag == "Enemy")
         {
+            //적을 맞출 때 발생하는 이벤트, 이후 적이 구현되면 나중에 수정할 부분임
             Debug.Log("적을 맞춤");
             Destroy(this.gameObject);
         }
