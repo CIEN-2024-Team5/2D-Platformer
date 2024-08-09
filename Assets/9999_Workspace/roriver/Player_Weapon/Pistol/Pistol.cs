@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Pistol : MonoBehaviour
 {
-    //ÃÑ ½ºÅÝ °ü·Ã º¯¼ö, ³ªÁß¿¡ °­È­µÇ¸é ¹Ù²ð ¼ö ÀÖÀ½
+    //ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ß¿ï¿½ ï¿½ï¿½È­ï¿½Ç¸ï¿½ ï¿½Ù²ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     public float PistolDamage = 1f;
     public float BulletSpeed = 8.0f;
     float FireCoolTime = 0.5f;
@@ -41,7 +41,7 @@ public class Pistol : MonoBehaviour
             }
             else
             {
-                Debug.Log("ÄðÅ¸ÀÓ ¾ÈµÊ");
+                Debug.Log("ï¿½ï¿½Å¸ï¿½ï¿½ ï¿½Èµï¿½");
             }
         }
     }
